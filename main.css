@@ -1,0 +1,90 @@
+body {
+    font-family: "Georgia", serif;
+    margin: auto 0px;
+}
+
+/*.landing-page {
+    background-image: url("./images/background.jpg");
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+header {
+    text-align: center;
+    color: #0d3d12;
+}
+
+.header-text {
+    text-align: center;
+    width: 75%;
+    color: #166164;
+}
+
+h1 {
+    font-family: "Oswald", serif;
+    letter-spacing: 10px;
+    font-size: 5em;
+    margin: 5% auto;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 2em;
+    margin-top: -5%;
+}
+
+nav {
+    margin-top: 7%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #e8eced;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+
+nav a {
+    margin-right: 5%;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.headshot {
+    max-height: 600px;
+    margin: 0;
+    display: block;
+}
+
+.header_img {
+    max-height: 300px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+article.project {
+    flex-basis: 40%;
+    text-align: center;
+    margin: 20px;
+}
+
+.project img {
+    max-height: 200px;
+}
