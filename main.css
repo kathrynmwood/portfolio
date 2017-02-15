@@ -44,7 +44,7 @@ nav {
     margin-top: 7%;
     padding: 20px 0;
     text-align: center;
-    background-color: #e8eced;
+    background-color: #ad8166;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 5%;
@@ -56,13 +56,8 @@ nav a {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
-}
-
-.header_img {
-    max-height: 300px;
-    display: block;
 }
 
 ul {
@@ -96,10 +91,18 @@ article.project {
 }
 
 a:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 a:hover {
+    color: #0d3d12;
+}
+
+.project a:visited {
+    color: #0d3d12;
+}
+
+.project a:hover {
     color: #ad8166;
 }
 
@@ -111,6 +114,21 @@ a:hover {
 
 .about {
     margin: auto 10%;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #ad8166;
+    padding: 20px 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
