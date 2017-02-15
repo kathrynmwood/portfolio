@@ -36,6 +36,10 @@ h2 {
     margin-top: -5%;
 }
 
+h3 {
+    text-align: center;
+}
+
 nav {
     margin-top: 7%;
     padding: 20px 0;
@@ -54,12 +58,6 @@ nav a {
     letter-spacing: 3px;
     color: #000000;
     text-transform: uppercase;
-}
-
-.headshot {
-    max-height: 600px;
-    margin: 0;
-    display: block;
 }
 
 .header_img {
@@ -105,6 +103,16 @@ a:hover {
     color: #ad8166;
 }
 
+.headshot {
+    max-height: 500px;
+    margin-left: 10%;
+    float: right;
+}
+
+.about {
+    margin: auto 10%;
+}
+
 @media (max-width: 800px) {
     article.project {
         width: 50%;
@@ -114,5 +122,8 @@ a:hover {
 @media (max-width: 400px) {
     article.project {
         width: 100%;
+    }
+    .headshot {
+        margin: auto;
     }
 }
